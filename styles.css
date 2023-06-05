@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    box-sizing: border-box;
+    background-image: radial-gradient(ellipse at top, hsl(213, 19%, 18%), hsl(213, 29%, 12%));
+    width: 412px;
+    height: 421px;
+    margin: auto;
+    margin-top: 175px;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.end {
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.star-image {
+    background-color: hsl(213, 19%, 18%);
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.did-do-title {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.para {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.rate {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 32px;
+}
+
+ul li {
+    background-color: hsl(213, 19%, 18%);
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    font-family: 'Overpass', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    color: hsl(217, 12%, 63%);
+}
+
+ul li:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    width: 340px;
+    height: 45px;
+    border-radius: 32px;
+    color: hsl(0, 0%, 100%);
+    font-size: small;
+    letter-spacing: 2px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+
+    font-weight: 700
+}
+
+button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.end {
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.thankyou_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.numberSelected {
+    display: flex;
+    justify-content: center;
+}
+
+.choosenNumber {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 0.5px;
+}
+
+.thank-title {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.thank-desc {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
