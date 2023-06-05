@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!-- Rating state start -->
+      <div class="start">
+        <div class="star-image">
+          <img src="icon-star.svg" alt="STAR" />
+        </div>
+        <div class="content">
+          <h1 class="did-do-title">How did we do?</h1>
+          <p class="para">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <ul class="rate">
+            <li class="a">1</li>
+            <li class="a">2</li>
+            <li class="a">3</li>
+            <li class="a">4</li>
+            <li class="a">5</li>
+          </ul>
+        </div>
+        <div>
+          <button>SUBMIT</button>
+        </div>
+      </div>
+      <div class="end">
+        <div class="thankyou_img">
+          <img src="illustration-thank-you.svg" alt="Thank you" />
+        </div>
+        <div class="numberSelected">
+          <div class="choosenNumber">
+            You selected <span id="rate"></span> out of 5
+          </div>
+        </div>
+        <div class="content">
+          <div class="thank-title"><h1>Thank you!</h1></div>
+          <div class="thank-desc">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don't hesitate to get in touch!
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
