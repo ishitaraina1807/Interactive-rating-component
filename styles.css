@@ -146,4 +146,6 @@ button:hover {
     font-family: 'Overpass', sans-serif;
     text-align: center;
     line-height: 25px;
+    font-size: 15px;
+}
 }
