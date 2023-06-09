@@ -75,6 +75,7 @@ ul li {
     cursor: pointer;
     transition: 0.3s;
     color: hsl(217, 12%, 63%);
+    font-size: 0.6rem
 }
 
 ul li:hover {
